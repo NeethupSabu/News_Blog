@@ -1,16 +1,16 @@
-# one
+# News_Blog
 
-A new Flutter project.
 
-## Getting Started
+Welcome to the News Blog App, a comprehensive news application that delivers the latest updates across various categories like Technology, Science, Fashion, Sports, and more.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Email Authentication: Secure login and registration using email.Authentigation using Firebase
+Tabbed Navigation: Explore different news categories with a tabbed interface.
+News Details: Detailed view of news articles with title, description, image, author information, and options to follow, bookmark, and comment.Fetch News from NEWS API
+Bookmarks: Save and organize your favorite articles with bookmarking functionality.
+Profile Management: Edit profile details, update password, and upload a profile picture.
+Localization: Supports multiple languages including English, Malay, Chinese, and Spanish.
+Notifications: Customize your notification settings for app updates, recommended articles, promotions, and the latest news.
+Membership Plans: Choose from various membership options directly within the app. FEATURES USED
+Firebase,FCM
+Razorpay for paymet
+News API
