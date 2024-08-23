@@ -22,7 +22,7 @@ class PushNotificationHelper {
     const AndroidInitializationSettings initializationSettingsForAndroid =
         AndroidInitializationSettings('@mipmap/ic_launcher');
 
-    final InitializationSettings initializationSettings =
+    const InitializationSettings initializationSettings =
         InitializationSettings(
       android: initializationSettingsForAndroid,
     );

@@ -87,7 +87,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   textEditingController: emailController,
                   hintText: 'Email Address'),
               Padding(
-                padding: EdgeInsets.only(top: 10.0, right: 20.0, left: 20.0),
+                padding: const EdgeInsets.only(top: 10.0, right: 20.0, left: 20.0),
                 child: TextField(
                   controller: passwordController,
                   obscureText: _obscureText,
@@ -95,7 +95,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       hintText: 'Password',
                       hintStyle: const TextStyle(color: Colors.black45),
                       contentPadding:
-                          EdgeInsets.symmetric(vertical: 15, horizontal: 20),
+                          const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
                       suffixIcon: IconButton(
                         icon: Icon(
                           _obscureText
@@ -112,7 +112,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           borderRadius: BorderRadius.circular(20)),
                       focusedBorder: OutlineInputBorder(
                           borderSide:
-                              BorderSide(width: 1, color: Color(0xFFFD5530)),
+                              const BorderSide(width: 1, color: Color(0xFFFD5530)),
                           borderRadius: BorderRadius.circular(20))),
                 ),
               ),

@@ -162,14 +162,14 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                     ),
                     Padding(
                       padding:
-                          EdgeInsets.only(top: 10.0, right: 20.0, left: 20.0),
+                          const EdgeInsets.only(top: 10.0, right: 20.0, left: 20.0),
                       child: TextField(
                         controller: passwordController,
                         obscureText: _obscureText,
                         decoration: InputDecoration(
                             hintText: 'Password',
                             hintStyle: const TextStyle(color: Colors.black45),
-                            contentPadding: EdgeInsets.symmetric(
+                            contentPadding: const EdgeInsets.symmetric(
                                 vertical: 15, horizontal: 20),
                             suffixIcon: IconButton(
                               icon: Icon(
@@ -186,7 +186,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                                 borderSide: BorderSide.none,
                                 borderRadius: BorderRadius.circular(20)),
                             focusedBorder: OutlineInputBorder(
-                                borderSide: BorderSide(
+                                borderSide: const BorderSide(
                                     width: 1, color: Color(0xFFFD5530)),
                                 borderRadius: BorderRadius.circular(20))),
                       ),

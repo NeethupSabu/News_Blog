@@ -27,8 +27,8 @@ class NewsListView extends StatelessWidget {
                 children: [
                   ListTile(
                     trailing: Container(
-                      width: 90.0, // Adjust width as needed
-                      height: 150.0, // Adjust height as needed
+                      width: 90.0,
+                      height: 150.0,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8.0),
                         image: DecorationImage(

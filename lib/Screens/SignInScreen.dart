@@ -96,7 +96,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       hintText: 'Password',
                       hintStyle: const TextStyle(color: Colors.black45),
                       contentPadding:
-                          EdgeInsets.symmetric(vertical: 15, horizontal: 20),
+                          const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
                       suffixIcon: IconButton(
                         icon: Icon(
                           _obscureText
@@ -113,7 +113,7 @@ class _SignInScreenState extends State<SignInScreen> {
                           borderRadius: BorderRadius.circular(20)),
                       focusedBorder: OutlineInputBorder(
                           borderSide:
-                              BorderSide(width: 2, color: Color(0xFFFD5530)),
+                              const BorderSide(width: 2, color: Color(0xFFFD5530)),
                           borderRadius: BorderRadius.circular(20))),
                 ),
               ),

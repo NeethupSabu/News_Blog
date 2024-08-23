@@ -26,7 +26,7 @@ class TextFieldInput extends StatelessWidget {
               hintText: hintText,
               hintStyle: const TextStyle(color: Colors.black45),
               contentPadding:
-                  EdgeInsets.symmetric(vertical: 15, horizontal: 20),
+                  const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
               border: InputBorder.none,
               filled: true,
               fillColor: Colors.grey.withOpacity(0.1),
@@ -34,7 +34,7 @@ class TextFieldInput extends StatelessWidget {
                   borderSide: BorderSide.none,
                   borderRadius: BorderRadius.circular(20)),
               focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(width: 1, color: Color(0xFFFD5530)),
+                  borderSide: const BorderSide(width: 1, color: Color(0xFFFD5530)),
                   borderRadius: BorderRadius.circular(20))),
         ),
       ),

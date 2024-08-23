@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage>
           ],
         ),
       ),
-      drawer: MyDrawer(),
+      drawer: const MyDrawer(),
       body: TabBarView(
         controller: _tabController,
         children: const [
